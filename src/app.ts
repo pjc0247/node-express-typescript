@@ -12,7 +12,6 @@ class Server {
   }
 
   constructor() {
-    //create expressjs application
     this.app = express();
 
     this.app.use(express.static(path.join(__dirname, 'public')));
