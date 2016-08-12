@@ -1,0 +1,21 @@
+{
+    "files": [
+        "typings/index.d.ts",
+        "src/app.ts",
+        "src/hello.ts"
+    ],
+    "filesGlob": [
+        "typings/index.d.ts",
+        "src/**/*.ts",
+        "!src/.baseDir.ts",
+        "!src/_all.d.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "noLib": false,
+        "target": "es6",
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "outDir": "bin/"
+    }
+}
